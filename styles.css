@@ -1,0 +1,429 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+#header {
+    width: 100%;
+    height: 4rem;
+    background-color: #1a1a1a;
+    padding: 10px, 20px;
+    position: fixed;
+    top: 0px;
+    z-index: 10000;
+    box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+#nav{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#logo{
+    font-size: 0px;
+    display: inline-flex;
+    align-items: baseline;
+}
+#bakacolor{
+    font-size: 2rem;
+    color: #FF6600;
+}
+
+#newscolor{
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+a{
+    color: #FFF;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+a:hover{
+    color: #FF6600;
+}
+
+#menu{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+a{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #FFF;
+    transition: 0.5s ease;
+}
+li:hover{
+    color: #FF6600;
+}
+#btn-mobile{
+    display: none;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1.1rem;
+}
+
+#signin{
+  font-family: 'Bebas Neue', cursive;
+  border: none;
+  background-color: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+  color: #FFF;
+  width: 150px;
+  display: inline-block;
+  transition: 0.6s ease;
+  margin-left: 3rem;
+}
+
+#login{
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 5px;
+    background-color: #FF6600;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+#login:hover{
+    background-color: #fff;
+    color: #FF6600; 
+}
+
+#signin:hover{
+    color: #FF6600; 
+}
+
+.anime-section{
+    height: 275px;
+}
+
+.section-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin-left: calc(50% - 380px);
+    margin-top: 100px;
+    margin-bottom: 1rem;
+}
+
+#section-title-part1{
+    color: #FFF;
+}
+
+#section-title-part2{
+    color: #FF6600;
+}
+#animesdestaque{
+    justify-content: center;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+}
+
+#content1{
+    background-image: url(/img/kanokano.jpg);
+}
+
+.contentTitle{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+    padding: 5px 0 0 0;
+    margin-right: auto;
+    position: relative;
+    margin-left: auto;
+    margin-top: 147px;
+    border-radius: 0 0 5px 5px;
+    background-color: #FF6600;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: white;
+}
+
+.content{
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    border-radius: 5px;
+    margin: auto 1.5rem;
+}
+.show-more{
+    position: relative;
+    text-align: right;
+    padding: 5px;
+    font-size: 12px;
+}
+
+#content2{
+  background-image: url('/img/slime.jpg');
+}
+#content3{
+  background-image: url('/img/boruto.jpg');
+}
+#content4{
+  background-image: url('/img/bokutachi.jpg');
+}
+
+#ultimasnoticias{
+    height: 375px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-title-last-news{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    margin-top: 30px;
+}
+.last-news{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    justify-content: center;
+    align-content: center;
+}
+.last-news-content{
+    height: 170px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px 5px 0 0;
+}
+.last-news-section-title{
+    background-color: #FF6600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    border-radius: 0 0 5px 5px;
+}
+.last-news-section-subtitle{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.last-news-section{
+    width: 400px;
+    border-radius: 5px;
+    margin: auto 1.5rem;
+}
+.last-news-show-more{
+    text-align: right;
+}
+
+.last-news-section p{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+}
+
+.last-news-section h2{
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#last-news-content2{
+    background-image: url("/img/relife-not.png");
+}
+
+#last-news-content1{
+    background-image: url("/img/bnha-noticia.jpg");
+}
+
+
+.newsletter{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FF6600;
+    height: 150px;
+    width: 800px;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 1rem;
+    display: flex;
+    padding: 40px 30px 40px 30px;
+}
+
+.newsletter-input, .newsletter-btn{
+    width: 100%;
+    border: none;
+    padding: 14px;
+    border-radius: 3px;
+}
+
+.newsletter-input{
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 50%;
+      font-size: 1rem;
+      color: #333;
+}
+.newsletter-input::placeholder{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+.newsletter-input::first-line{
+    font-family: 'Bebas Neue', cursive;
+    color: #333;
+}
+
+#newletter-icon{
+    font-size: 50px !important;
+}
+.newletter-title{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    font-size: 28px;
+    width: 40%;
+    color: #FFF;
+}
+.newsletter-btn {
+  font-family: 'Bebas Neue', cursive;
+  border: none;
+  background-color: #FFF;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #333;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 100px;
+  display: inline-block;
+  transition: 0.6s ease;
+}
+  .newsletter-btn:hover {
+    color: #FF6600;
+  }
+  #footer{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: center;
+    color: #FFF;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #FF6600;
+    height: 150px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+#facebook-icon{
+    font-size: 30px;
+}
+#facebook-icon:hover{
+    color: #333;
+    cursor: pointer;
+}
+#twitter-icon{
+    font-size: 30px;
+}
+#twitter-icon:hover{
+    color: #333;
+    cursor: pointer;
+}
+#youtube-icon{
+    font-size: 30px;
+}
+#youtube-icon:hover{
+    color: #333;
+    cursor: pointer;
+}
+#instagram-icon{
+    font-size: 30px;
+}
+#instagram-icon:hover{
+    color: #333;
+    cursor: pointer;
+}
+.copyright-text{
+    font-size: 12px;
+}
+
+
+@media (max-width: 650px){
+     #menu{
+        transition: 1s ease;
+        position: fixed;
+        top: 4rem;
+        right: 0;
+        height: 100%;
+        margin: 0;
+        background-color: #1a1a1a;
+        width: 100%;
+        max-width: 250px;
+        padding: 80px 20px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #nav.active #menu{
+        display: none;
+    }
+
+     #buttons{
+        display: flex;
+        border-radius: 50%;
+        width: 100%;
+        height: 50px;
+    }    
+    #signin{
+        width: 100%;
+        margin-left: 0;
+    }
+    #btn-mobile{
+        display: block;
+        color: #FFF;
+        position: absolute;
+        right: 10px;
+    }
+}  
+
+    @media (max-width: 1000px){
+        .newsletter{
+            width: calc(100% - 100px);
+        }
+        .newsletter-title{
+            flex-wrap: wrap;
+        }
+        #ultimasnoticias{
+            width: calc(100% - 100px);
+                height: 425px;
+        }
+        
+    }
+
+    @media (max-width: 800px){
+        .section-title{
+            margin-left: 20px;
+        }
+    }
